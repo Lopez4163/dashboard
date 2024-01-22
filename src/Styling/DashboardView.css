@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.profile-info-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.options-ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.link {
+    text-align: center;
+}
+.link-wrapper {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.graph-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.graph-img {
+    width: 70%;
+    height: 70%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+}
+.bookings-wrapper {
+    width: 80%;
+    height: auto;
+}
+.bookings-ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px;
+    justify-content: center;
+    border: 1px solid black;
+}
+#bookings {
+    padding: 10px;
+    border: 1px solid black;
+}
+.bookings-li-wrapper {
+    display: flex;
+    flex-direction: column;
+}
